@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublishTestApp", "PublishTestApp\PublishTestApp.csproj", "{BCE5B74E-BC5D-4FDA-9C84-9B359FA869A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C257DA8D-3071-4EA2-A332-BDE872123A73}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Directory.Build.targets = Directory.Build.targets
+		Directory.Packages.props = Directory.Packages.props
+		global.json = global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCE5B74E-BC5D-4FDA-9C84-9B359FA869A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE5B74E-BC5D-4FDA-9C84-9B359FA869A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE5B74E-BC5D-4FDA-9C84-9B359FA869A4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{BCE5B74E-BC5D-4FDA-9C84-9B359FA869A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE5B74E-BC5D-4FDA-9C84-9B359FA869A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE5B74E-BC5D-4FDA-9C84-9B359FA869A4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58886160-565F-4486-80B4-1E09A6FDE536}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
+  IgnorableNamespaces="uap rescap mp">
+
+  <Identity  Name="5734742ndParallel.oiuwelksadn" Version="1.0.0.0" Publisher="CN=6C0982E4-7FDD-43EB-8344-4797261F8F23"/>
+  <Properties >
+    <DisplayName>oiuwelksadn</DisplayName>
+    <PublisherDisplayName>42nd Parallel</PublisherDisplayName>
+  </Properties >
+
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
+    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
+  </Dependencies>
+
+  <Resources>
+    <Resource Language="x-generate"/>
+  </Resources>
+
+  <Applications>
+    <Application Id="App"
+      Executable="$targetnametoken$.exe"
+      EntryPoint="$targetentrypoint$">
+      <uap:VisualElements  DisplayName="PublishTestApp" Description="App to test Microsoft Store publishing process">
+        <uap:DefaultTile/>
+      </uap:VisualElements >
+    </Application>
+  </Applications>
+
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+  </Capabilities>
+
+  <mp:PhoneIdentity PhoneProductId="cc42def6-f94b-45e4-989d-85ffa84bd208" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+</Package>
